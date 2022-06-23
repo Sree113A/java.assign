@@ -24,7 +24,7 @@ public class docreader {
       int count = 0;
       String[] array={"Java","Python","PHP","C++","Oracle","Excel"};
       XWPFDocument doc = new XWPFDocument(
-        OPCPackage.open("C:\\Users\\DSREEKUM\\Downloads\\Assignments_1\\Assignments_1\\src\\main\\java\\PDF_Solution.java"));
+        OPCPackage.open("C:\\Users\\DSREEKUM\\Downloads\\Sreekumar.docx"));
       for (XWPFParagraph p : doc.getParagraphs()) {
        List <XWPFRun>runs = p.getRuns();
        if (runs != null) {
